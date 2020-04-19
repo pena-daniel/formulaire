@@ -7,6 +7,33 @@
     <title>formulaire</title>
 </head>
 <body>
-    
+    <div class="container">
+        <section>
+            <article>
+
+            </article>
+            <aside>
+                <h1>Welcome to Hotel Arina</h1>
+                <h2>Sing up buddy</h2>
+                <style>
+                    input:valid{
+                        border: solid rgb(0, 140, 255);
+                    }
+                    input:invalid{
+                        border: solid rgb(141, 3, 3);
+                    }
+                </style>
+                <form action="">
+                    <input type="text" name="name" required placeholder="Name" id="form_name"> <br>
+                    <input type="email" name="email" required placeholder="E-mail" id="form_mail"><br>
+                    <input type="tel" name="phone" required placeholder="Phone" id="form_phone"><br>
+                    <input type="text" name="address" required  placeholder="Address" id="form_address"><br>
+                    <input type="checkbox" name="checkbox" required  id="form_check" checked>
+                    <p>I agree terms & conditions</p>
+                    <input type="submit" value="send request">
+                </form>
+            </aside>
+        </section>
+    </div>
 </body>
 </html>
