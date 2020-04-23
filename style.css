@@ -4,7 +4,7 @@
 }
 section{
     width: 77%;
-    height: 580px;
+    height: 560px;
     margin-left: 12%;
     margin-top: 5%;
     margin-bottom: 10%;
@@ -46,22 +46,21 @@ input[type=checkbox]{
     width: 70px;
     height: 20px;
     margin-left: 18%;
+    margin-bottom: inherit;
 }
 input[type=submit]{
     opacity: 1;
     border: none;
     background-color: rgb(55, 97, 226);
     color: white;
+    width: 365px;
     
 }
 aside p{
     position: relative;
     left: 31%;
-    top: -28px;
+    top: -22px;
     font-size: small;
 }
-article{
-    width: 50%;
-    background-image: url('image/daniel.jpeg');
-    background-position: center;
-}
+article{width: 50%;}
+    

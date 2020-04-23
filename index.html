@@ -10,7 +10,7 @@
     <div class="container">
         <section>
             <article>
-
+                <img src="image/font.jpg" alt="font" style="width:105%; height:560px;">
             </article>
             <aside>
                 <h1>Welcome to Hotel Arina</h1>
@@ -24,9 +24,10 @@
                     }
                 </style>
                 <form action="">
-                    <input type="text" name="name" required placeholder="Name" id="form_name"> <br>
-                    <input type="email" name="email" required placeholder="E-mail" id="form_mail"><br>
-                    <input type="tel" name="phone" required placeholder="Phone" id="form_phone"><br>
+                    <input type="text" name="name" required  pattern="[A-Z].{8,}" placeholder="Name" id="form_name"> <br>
+                    <input type="email" name="email" pattern=".{1,}\.@Webcodepath" required placeholder="E-mail"  id="form_mail"><br>
+                    <input type="password" name="password" pattern="[A-Z][a-z][0-9].{5,}" required placeholder="mot de passe" id="form_password"> <br>
+                    <input type="tel" name="phone" required pattern="[0-9]{9}" placeholder="Phone" id="form_phone"><br>
                     <input type="text" name="address" required  placeholder="Address" id="form_address"><br>
                     <input type="checkbox" name="checkbox" required  id="form_check" checked>
                     <p>I agree terms & conditions</p>
